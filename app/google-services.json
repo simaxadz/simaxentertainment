@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "546460032231",
+    "firebase_url": "https://simaxevents.firebaseio.com",
+    "project_id": "simaxevents",
+    "storage_bucket": "simaxevents.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546460032231:android:a1eac334245aa1d3",
+        "android_client_info": {
+          "package_name": "com.simax.simax_events"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546460032231-h888skfsa9ga7v1ivnktoaa4a9v04fmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simax.simax_events",
+            "certificate_hash": "84cd9d9bbb121c2fdf0bcbf7da17abf1c3211fee"
+          }
+        },
+        {
+          "client_id": "546460032231-fame1kid9n5fqi8dp56te51tc0g9225r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9fT9LYVgpt6xslCByJexFlESuzZWotGc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546460032231-fame1kid9n5fqi8dp56te51tc0g9225r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

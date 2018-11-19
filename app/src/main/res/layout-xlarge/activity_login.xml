@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/logo1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/facebook"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@color/red"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/facebook" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:textSize="40sp"
+                android:fontFamily="@font/monterey"
+                android:text="Continue with Facebook"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/google"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:background="@color/red"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/google" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/monterey"
+                android:textSize="40sp"
+                android:text="Continue with Google"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/view"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/view"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/person"
+                android:paddingTop="30dp"/>
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00000000"
+                android:hint="Email"
+                android:fontFamily="@font/josefine_sanserif"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="#96F60000"
+                android:textSize="40sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/view"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lock_26"
+                android:paddingTop="30dp"/>
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#00000000"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/josefine_sanserif"
+                android:paddingTop="20dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="#96F60000"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_marginTop="30dp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="login"
+            android:fontFamily="@font/europeunderground_black"
+            android:textSize="30sp"
+            android:background="@drawable/view2"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:textAlignment="gravity"
+            android:elevation="5dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/view"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="40sp"
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/monterey"
+        android:text="NEW SIMAX USER"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/register"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="REGISTER"
+            android:fontFamily="@font/europeunderground_black"
+            android:textSize="35sp"
+            android:textColor="@android:color/white"
+            android:background="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:elevation="5dp"/>
+
+</LinearLayout>
